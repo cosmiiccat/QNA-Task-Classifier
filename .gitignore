@@ -1,0 +1,12 @@
+*.json
+*.bin
+*.docx
+*.pptx
+*.mkv
+
+Data\new_qasper.json
+Data\qasper_classification.json
+Data\qasper-test-v0.3.json
+Data\qasper-train-v0.3.json
+Data\train-v2.0.json
+models\model.bin
