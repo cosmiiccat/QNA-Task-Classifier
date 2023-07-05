@@ -1,0 +1,30 @@
+{
+    "date": "20th June 2023",
+    "author": [
+        "Preetam Pati"
+    ],
+    "length": {
+        "train_data": 4000,
+        "test_data": 1000,
+        "validation_data": 500
+    },
+    "data": {
+        "train_data": [
+            [
+                [
+                    "Table TABREF44 shows that consistent nucleus and top-$k$ sampling (\u00a7SECREF28) resulted in only terminating sequences, except for a few cases that we attribute to the finite limit $L$ used to measure the non-termination ratio. The example continuations in Table TABREF46 show that the sampling tends to preserve language modeling quality on prefixes that led to termination with the baseline (first row). On prefixes that led to non-termination with the baseline (second & third rows), the quality tends to improve since the continuation now terminates. Since the model's non-$\\left<\\text{eos}\\right>$ token probabilities at each step are only modified by a multiplicative constant, the sampling process can still enter a repetitive cycle (e.g. when the constant is close to 1), though the cycle is guaranteed to eventually terminate.",
+                    "For the example decoded sequences in Table TABREF46, generation quality is similar when both the self-terminating and baseline models terminate (first row). For prefixes that led to non-termination with the baseline, the self-terminating variant can yield a finite sequence with reasonable quality (second row). This suggests that some cases of degenerate repetition BIBREF5, BIBREF10 may be attributed to inconsistency. However, in other cases the self-terminating model enters a repetitive (but finite) cycle that resembles the baseline (third row), showing that consistency does not necessarily eliminate degenerate repetition.",
+                    "FLOAT SELECTED: Table 2. Non-termination ratio (rL (%)) of decoded sequences using consistent sampling methods.",
+                    "FLOAT SELECTED: Table 1. Non-termination ratio (rL (%)) of decoded sequences using ancestral sampling and incomplete decoding methods."
+                ],
+                "How much improvement is gained from the proposed approaches?",
+                {
+                    "unanswerable": false,
+                    "extractive_spans": false,
+                    "yes_no": false,
+                    "abstractive": true
+                }
+            ]
+        ]
+    }
+}
